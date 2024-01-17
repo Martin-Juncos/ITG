@@ -8,6 +8,10 @@ while intentos_restantes > 0 :
     
       letra = input('inghrese letra: ')
 
+      if letra in letras_acertadas:
+        print('Ya ingresaste esa letra')
+        continue
+
       if letra in palabra:
             letras_acertadas.append(letra)
             print(letras_acertadas)

@@ -1,3 +1,5 @@
+# Juego del ahorcado
+
 palabra = 'info'
 
 intentos_restantes = 6
